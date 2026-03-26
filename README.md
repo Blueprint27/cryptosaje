@@ -27,6 +27,7 @@ In-progress MVP
 - Password recovery flow
 - Crypto dashboard interface
 - Coin card display and filter system
+- Category views such as AI, top gainers, top losers, and high volume
 - Strategy-view product direction
 - Future roadmap for alerts and automation
 
@@ -37,16 +38,26 @@ In-progress MVP
 
 ## Screenshots / Demo
 
-Screenshots and demo visuals will be added here.
+### Dashboard Overview
+![Dashboard Overview](5cc176b7-6639-4688-b582-9fd07374540c.png)
+
+### Top Losers View
+![Top Losers View](e68ef03d-752c-4706-aea5-31fe74c4bf00.png)
+
+### High Volume View
+![High Volume View](d5cad49c-1298-4639-b3a7-a798f38de88e.png)
+
+### Logged-in Dashboard State
+![Logged-in Dashboard State](f43200e1-8bdc-4e1b-9e22-b142cb590422.png)
 
 ## Tech Stack
 
-- Frontend:
-- Backend:
-- Database:
-- Auth:
-- Hosting:
-- APIs/Data Sources:
+- Frontend: HTML, CSS, JavaScript
+- Backend: JavaScript app logic
+- Database: Firebase / local app state depending on feature area
+- Auth: Prototype login flow / authentication layer in progress
+- Hosting: Replit
+- APIs/Data Sources: CoinGecko API, fallback/local demo data, strategy.json
 
 ## What’s Working Now
 
@@ -55,7 +66,8 @@ Screenshots and demo visuals will be added here.
 - Coin display cards
 - Category/filter views
 - Working product shell and visual dashboard experience
-- Partial data and fallback demo functionality
+- Partial live/fallback data functionality
+- Authenticated product flow
 
 ## What’s Not Fully Finished Yet
 
@@ -63,6 +75,19 @@ Screenshots and demo visuals will be added here.
 - HOLD / WATCH / TRIM-SELL strategy filters
 - Fully reliable autonomous Discord alerts
 - Fully accurate live update logic across all dashboard states
+- Stronger top-level metrics and insight summaries
+
+## My Role
+
+I led the product vision, brand direction, dashboard design, workflow structure, and implementation of the login flow, crypto interface, and evolving strategy and alert system direction.
+
+## Setup Instructions
+
+1. Clone the repository
+2. Open the project in Replit or your local editor
+3. Add required environment variables and API configuration
+4. Run the app
+5. Test login flow, dashboard access, and category filters
 
 ## Notes
 
